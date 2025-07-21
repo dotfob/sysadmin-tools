@@ -21,7 +21,7 @@ nx2ensite <site>
 
 - Você pode baixar o binário direto do repositório:
 ```
-curl -LO [https://github.com/seuusuario/sysadmin-tools/raw/main/bin/nx2ensite](https://github.com/dotfob/sysadmin-tools/blob/main/bin/nx2ensite)
+curl -LO https://github.com/dotfob/sysadmin-tools/blob/main/bin/nx2ensite
 chmod +x nx2ensite
 sudo mv nx2ensite /usr/local/bin/
 ```
