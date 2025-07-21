@@ -19,20 +19,20 @@ nx2ensite <site>
 
 ## Instalação
 
-Você pode baixar o binário direto do repositório:
-
-curl -LO https://github.com/seuusuario/sysadmin-tools/raw/main/bin/nx2ensite
+- Você pode baixar o binário direto do repositório:
+```
+curl -LO [https://github.com/seuusuario/sysadmin-tools/raw/main/bin/nx2ensite](https://github.com/dotfob/sysadmin-tools/blob/main/bin/nx2ensite)
 chmod +x nx2ensite
 sudo mv nx2ensite /usr/local/bin/
-
-ou pode compilar com Go:
+```
+- ou pode compilar com Go:
 
 Baixe o arquivo nx2ensite.go para um diretório local 
-
+```
 go build -o nx2ensite nx2ensite.go
 chmod +x nx2ensite
 sudo mv nx2ensite /usr/local/bin/
-
+```
 
 
 
