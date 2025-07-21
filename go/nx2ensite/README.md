@@ -27,6 +27,13 @@ sudo mv nx2ensite /usr/local/bin/
 
 ou pode compilar com Go:
 
-git 
+Baixe o arquivo nx2ensite.go para um diretório local 
+
+go build -o nx2ensite nx2ensite.go
+chmod +x nx2ensite
+sudo mv nx2ensite /usr/local/bin/
+
+
+
 
 
