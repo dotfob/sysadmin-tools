@@ -7,7 +7,7 @@
 - `/etc/nginx/sites-available/`
 - `/etc/nginx/sites-enabled/`
 
-a ferramenta possibilita alterar esse diretório com o parâmetro -f
+a ferramenta possibilita alterar esse diretório com o parâmetro --config-dir
 
 ## 🧪 Exemplo de uso
 
