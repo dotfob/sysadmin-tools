@@ -7,7 +7,7 @@
 - `/etc/nginx/sites-available/`
 - `/etc/nginx/sites-enabled/`
 
-a ferramenta possibilita alterar esse diretório com o parâmetro -f
+a ferramenta possibilita alterar esse diretório com o parâmetro --config-dir
 
 ## 🧪 Exemplo de uso
 
@@ -23,9 +23,19 @@ nx2dissite <site>
 ```
 cd /tmp
 wget https://raw.githubusercontent.com/dotfob/sysadmin-tools/main/go/nx2dissite/bin/nx2dissite-linux-amd64
+```
+Checagem de integridade
+```
+wget https://raw.githubusercontent.com/dotfob/sysadmin-tools/main/go/nx2dissite/bin/nx2dissite-linux-amd64.md5
+md5sum -c nx2dissite-linux-amd64.md5
+```
+Colocando o binário no seu devido lugar
+```
 chmod +x nx2dissite-linux-amd64
 sudo mv nx2dissite /usr/local/bin/nx2dissite
-
+```
+Agora o comando está disponível para você:
+```
 nx2dissite
 ```
 - ou pode compilar com Go:
