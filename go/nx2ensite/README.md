@@ -23,9 +23,20 @@ nx2ensite <site>
 ```
 cd /tmp
 wget https://raw.githubusercontent.com/dotfob/sysadmin-tools/main/go/nx2ensite/bin/nx2ensite-linux-amd64
-chmod +x nx2ensite-linux-amd64
-sudo mv nx2ensite /usr/local/bin/nx2ensite
 
+```
+Checagem de integridade
+```
+wget https://raw.githubusercontent.com/dotfob/sysadmin-tools/main/go/nx2ensite/bin/nx2ensite-linux-amd64.md5
+md5sum -c nx2ensite-linux-amd64.md5
+```
+Colocando o binário no seu devido lugar
+```
+chmod +x nx2ensite-linux-amd64
+sudo mv nx2ensite-linux-amd64 /usr/local/bin/nx2ensite
+```
+Agora o comando está disponível para você:
+```
 nx2ensite
 ```
 - ou pode compilar com Go:
