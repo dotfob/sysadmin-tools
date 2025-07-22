@@ -1,6 +1,6 @@
 # 🔧 nx2dissite
 
-`nx2dissite` é uma ferramenta escrita em Go que facilita a habilitação de sites no NGINX, similar ao `a2ensite` do Apache. Ela remove links simbólicos de arquivos de configuração de sites do diretório `sites-enabled`, testa a configuração do NGINX e recarrega o serviço.
+`nx2dissite` é uma ferramenta escrita em Go que facilita a habilitação de sites no NGINX, similar ao `a2dissite` do Apache. Ela remove links simbólicos de arquivos de configuração de sites do diretório `sites-enabled`, testa a configuração do NGINX e recarrega o serviço.
 
 ## 📂 Estrutura esperada por padrão
 
