@@ -1,4 +1,4 @@
-# 🔧 nx2ensite
+# 🔧 nx2ensite - NGINX Enable Site
 
 `nx2ensite` é uma ferramenta escrita em Go que facilita a habilitação de sites no NGINX, similar ao `a2ensite` do Apache. Ela cria links simbólicos de arquivos de configuração de sites do diretório `sites-available` para `sites-enabled`, testa a configuração do NGINX e recarrega o serviço.
 
