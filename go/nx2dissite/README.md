@@ -14,7 +14,9 @@ a ferramenta possibilita alterar esse diretório com o parâmetro --config-dir
 nx2dissite <site>
 
  -- avalia se existe o arquivo link simbólico {site}.conf no diretório sites-enabled/
+ 
  -- remove o link simbólico em sites-enabled/{site}.conf
+ 
  -- avalia se a configuração está ok, se estiver: faz um reload no nginx
 
 ## Instalação
