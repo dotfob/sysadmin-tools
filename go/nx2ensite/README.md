@@ -22,9 +22,11 @@ nx2ensite <site>
 - Você pode baixar o binário direto do repositório:
 ```
 cd /tmp
-curl -LO https://github.com/dotfob/sysadmin-tools/blob/main/bin/nx2ensite
-chmod +x nx2ensite
-sudo mv nx2ensite /usr/local/bin/
+wget https://raw.githubusercontent.com/dotfob/sysadmin-tools/main/go/nx2ensite/bin/nx2ensite-linux-amd64
+chmod +x nx2ensite-linux-amd64
+sudo mv nx2ensite /usr/local/bin/nx2ensite
+
+nx2ensite
 ```
 - ou pode compilar com Go:
 
