@@ -1,4 +1,4 @@
-# 🔧 nx2dissite
+# 🔧 nx2dissite - NGINX Disable Site
 
 `nx2dissite` é uma ferramenta escrita em Go que facilita minha vida na habilitação de sites no NGINX, similar ao `a2dissite` do Apache. Funciona de forma bastante simples: remove links simbólicos de arquivos de configuração de sites do diretório `sites-enabled`, testa a configuração do NGINX e recarrega o serviço. Tradução e algumas funções by Grok.
 
